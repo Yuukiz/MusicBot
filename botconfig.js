@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["557469392904912897", ""], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
+  DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
+  Port: 8080, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.Token || "OTcxNzc5OTE1NTQyMjk4Njg0.GzwGb8.LdAazASxvz6VWvEwtcUC7O5Be5WMXvEt2PbVzs", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "971779915542298684", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "rkcUDMOasyWcW7kf1iOkBvuZplEGEq-k", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -22,8 +22,8 @@ module.exports = {
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "Boobies", // The message shown
+    type: "Playing", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
    // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink/
@@ -38,7 +38,7 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "d68e1ea9e148423d921657ee2d4f60eb", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "16c8f164ec0941178277e0f5717f7c36", //Spotify Client Secret
   },
 };
